@@ -1,0 +1,16 @@
+{
+  "name": "discuss-build",
+  "version": "0.1.0",
+  "description": "Read a repo's issues and discussions, build concrete asks on your fork, and queue lit changes. Nothing goes upstream without a human OK.",
+  "bin": {
+    "discuss-build": "bin/discuss-build.js"
+  },
+  "scripts": {
+    "test": "node --test test/*.js"
+  },
+  "author": "Joshua Almeida (https://github.com/fitzyracing1)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
